@@ -4,22 +4,44 @@ body {
 }
 
 header {
-	font-family: 'Galada', cursive;
 	background: linear-gradient(#01A9DB, #A9E2F3, #CEECF5);
 	width: 100%;
 }
 
 header h1 {
+	font-family: 'Galada', cursive;
 	font-size: 120px;
 	padding: 10px;
 }
 
 header h2 {
+	font-family: 'Galada', cursive;
 	font-size: 30px;
 	padding: 10px;
 }
 
+.voltar {
+	padding: 20px;
+}
 
+.voltar a {
+	text-decoration: none;
+}
+
+.voltar p {
+	display: inline;
+	border: 1px solid none;
+	border-radius: 10px;
+	padding: 5px;
+	background: green;
+	color: #fff;
+	font-weight: bold;
+}
+
+.voltar p:hover {
+	font-size: 18px;
+	transition: 0.3s all;
+}
 
 main {
 	background: linear-gradient(#CEECF5, #A9E2F3, #01A9DB);
@@ -40,7 +62,7 @@ nav {
 	box-shadow: -10px 10px 20px;
 	margin-left: 10%;
 	padding: 80px 10px;
-	background: #CEECF5;
+	background: #fff;
 }
 
 .conteudo li:hover {
@@ -109,7 +131,36 @@ footer img:hover {
 	transition: 0.5s all;
 }
 
+.bloco {
+	width: 940px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.bloco li {
+	padding: 20px;
+	font-weight: bold;
+	background: #fff;
+	border: 2px solid none;
+	border-radius: 10px;
+	margin: 50px 0;
+}
+
+.bloco p {
+	background: #ccc;
+	display: inline;
+	font-size: 15px;
+	border: 2px solid none;
+	border-radius: 5px;
+}
+
+.bloco h3 {
+	font-weight: bold;
+	font-size: 18px;
+}
+
 @media screen and (max-width: 480px) {
+
 	header h1 {
 		font-size: 100px;
 	}
@@ -135,6 +186,18 @@ footer img:hover {
 	.botao {
 		margin: 0 0;
 		margin-bottom: 20px;
+	}
+
+	#mafalda {
+		width: 290px;
+	}
+
+	.bloco .tirinha {
+		padding: 5px;
+	}
+
+	.bloco {
+		width: 300px;
 	}
 
 	footer p {
