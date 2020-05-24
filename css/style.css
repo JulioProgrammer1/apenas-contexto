@@ -1,0 +1,57 @@
+body {
+    opacity: 0.8; 
+}
+
+header {
+    font-family: 'Piedra', cursive;
+    background-color: #000;
+    padding: 20px;
+    box-shadow: 0 0 5px;
+}
+
+.cabecalho {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.cabecalho h1, h2 {
+    font-weight: bold;
+    padding: 5px;
+    color: #fff;
+}
+
+.cabecalho h1 {
+    font-size: 70px;
+}
+
+.cabecalho h2 {
+    font-size: 20px;
+}
+
+.navegacao nav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navegacao nav ul {
+    position: absolute;
+    right: 0;
+    top: 30%;
+}
+
+.navegacao nav li {
+    display: inline;
+    padding: 10px;
+    transition: 0.5s all;
+}
+
+.navegacao nav li:hover {
+    opacity: 0.3;
+}
+
+.navegacao nav li:active {
+    text-decoration: underline;
+}
