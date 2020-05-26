@@ -76,7 +76,7 @@ header {
     display: inline-block;
 }
 
-.botao-add {
+#botao-add {
     background-color: #0431B4;
     color: #fff;
     font-weight: bold;
@@ -86,8 +86,9 @@ header {
     transition: all 0.5s;
 }
 
-.botao-add:hover {
-    font-size: 16px;
+#botao-add:hover {
+    opacity: 0.7;
+    background: blue;
 }
 
 .comentario {
@@ -99,6 +100,7 @@ header {
 .comentario caption {
     box-shadow: 0px 0px 2px;
     font-weight: bold;
+    padding: 5px 0;
 }
 
 .comentario table {

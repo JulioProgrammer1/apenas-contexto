@@ -9,13 +9,14 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet"> 
-        <link rel="icon" href="img/icon1.png" type="x-icon">
+        <link rel="icon" href="img/fiveicon.png" type="x-icon">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
     </head>
 
     <body>
-
+        <!--Cabaçalho dá página-->
         <header>
+
             <section>
                 <div class="cabecalho">
                     <hgroup>
@@ -23,6 +24,7 @@
                         <h2>Somente a relação entre o texto e a situação</h2>
                     </hgroup>
                     <div class="navegacao">
+                        <!--Navegação entre as páginas-->
                         <nav>
                             <ul>
                                 <a href="#"><li>Home</li></a>
@@ -33,21 +35,23 @@
                     </div>
                 </div>
             </section>
+
         </header>
 
         <main>
-            <section>
 
+            <section>
+                <!--Formulário p/ add um comentário-->
                 <div class="add-comentarios">
-                    <form>
-                        <label>Nome:<br><input type="text" id="user" placeholder="Digite seu nome" required></label>
-                        <label>Comentário:<br><input type="text" id="addComentario" placeholder="Digite seu comentário" required></label>
-                        <button class="botao-add">Adicionar comentário</button>
+                    <form id="fromComentarios">
+                        <label>Nome:<br><input name="nome" type="text" id="user" placeholder="Digite seu nome" required></label>
+                        <label>Comentário:<br><input name="comentario" type="text" id="addComentario" placeholder="Digite seu comentário" required></label>
+                        <button id="botao-add">Adicionar comentário</button>
                     </form>
                 </div>
-
+                <!--Lista de comentários-->
                 <div class="comentario">
-                    <table>
+                    <table id="lista-comentarios">
                         <caption id="comentarios">Deixe um comentário</caption>
                         <tr>
                             <td>Júlio Cezar</td>
@@ -60,6 +64,7 @@
                     </table>
                 </div>
             </section>
+
         </main>
 
         <footer>
