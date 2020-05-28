@@ -1,18 +1,21 @@
 body {
-    opacity: 0.8; 
+    background-color: #F2F2F2;
+    opacity: 0.7; 
 }
 
 header {
-    font-family: 'Piedra', cursive;
     background-color: #000;
     padding: 20px;
     box-shadow: 0 0 5px;
 }
 
 .cabecalho {
+    font-family: 'Piedra', cursive;
+    /*position: fixed;*/
     position: relative;
     width: 940px;
     margin: 0 auto;
+    background-color: #000;
 }
 
 .cabecalho h1, h2 {
@@ -56,9 +59,96 @@ header {
     text-decoration: underline;
 }
 
+.conteudo1 {
+    position: relative;
+    width: 940px;
+    margin: 50px auto;
+}
+
+.conteudo1 .titulo-conteudo {
+    font-size: 30px;
+}
+
+.conteudo1 #imgfixar {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.corpo {
+    width: 940px;
+    margin: 20px auto;
+    padding: 50px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: -1px -1px 5px;
+}
+
+.poema {
+    width: 600px;
+    margin-left: 2%;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -1px -1px 5px;
+}
+
+.poema span {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+
+.poema .autor-poema {
+    font-style: italic;
+    text-decoration: none;
+}
+
+.poema .autor-poema:before {
+    content: "- ";
+}
+
+.poema h1, p {
+    font-style: italic;
+}
+
+.poema h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.poema p {
+    padding: 10px;
+    margin: 0 100px;
+    font-weight: bold;
+    margin-left: 25%;
+    line-height: 20px;
+}
+
+.videos-conteudo1 {
+    position: absolute;
+    right: 0;
+    top: 15.5%;
+}
+
+.videos-conteudo1 iframe {
+    display: inline-block;
+    margin: 20px;
+}
+
+.section-comentarios {
+    width: 900px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px;
+}
+
 .add-comentarios {
     font-family: 'Montserrat', sans-serif;
-    width: 940px;
+    width: 900px;
     margin: 20px auto;
 }
 
@@ -67,7 +157,7 @@ header {
 }
 
 .add-comentarios #addComentario {
-    width: 400px;
+    width: 300px;
 }
 
 .add-comentarios label {
@@ -93,7 +183,7 @@ header {
 
 .comentario {
     font-family: 'Montserrat', sans-serif;
-    width: 940px;
+    width: 900px;
     margin: 20px auto;
 }
 
@@ -127,4 +217,43 @@ header {
 
 .comentario table tr td:first-child {
     font-weight: bold;
+}
+
+footer {
+    position: relative;
+    background-color: #000;
+    padding: 5px;
+}
+
+footer #logo {
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 100%;
+    transition: all 0.5s;
+}
+
+footer #logo:hover {
+    opacity: 0.3;
+}
+
+footer #instagram {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    margin-right: 20px;
+    transition: 0.5s all;
+}
+
+footer #instagram:hover {
+    width: 35px;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    top: 50%;
+    left: 42%;
 }
