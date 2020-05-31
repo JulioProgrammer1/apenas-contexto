@@ -208,11 +208,11 @@ header {
 }
 
 .comentario table tr td:first-child:before {
-    content: "( ";
+    content: "[ ";
 }
 
 .comentario table tr td:first-child:after {
-    content: " )";
+    content: " ]";
 }
 
 .comentario table tr td:first-child {
