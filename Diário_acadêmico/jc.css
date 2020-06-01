@@ -71,6 +71,7 @@ h1 {
 }
 
 main {
+	position: relative;
 	width: 940px;
 	margin: 0 auto;
 	margin-top: 20px;
@@ -97,16 +98,16 @@ h2 {
 
 .maratona p {
 	margin-top: 2em;
-	font-size: 12px;
+	font-size: 15px;
 	font-family: sans-serif;
-	line-height: 2em;
+	line-height: 1.5em;
 	font-weight: bold;
 }
 
 .timemaratona {
 	margin: 10px;
 	float: left;
-	box-shadow: -5px 5px 5px;
+	box-shadow: -2px 2px 2px;
 	width: 400px;
 }
 
@@ -139,8 +140,7 @@ nav li:hover img {
 .copy {
 	color: #FFF;
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px; 
+	padding: 20px 0; 
 }
 
 #jc-rodape {
@@ -164,29 +164,40 @@ nav li:hover img {
 	color: grey;
 }
 
-@media screen and (max-width: 480px) {
-	p {
-		font-size: 30px;
+@media screen and (max-width: 940px) {
+	main {
+		width: 90%;
+		margin: 0 auto;
 	}
 
 	.maratona p {
+		font-size: 15px;
+	}
+	
+	.timemaratona {
+		width: 100%;
+	}
+
+	#jc-rodape {
+		font-size: 20px;
+	}
+
+	#jc-rodape li:hover {
+		border-color: grey;
 		font-size: 25px;
-		line-height: 40px;
+		color: grey;
 	}
 
-	body {
-		width: 940px;
+	nav img {
+		width: 20px;
 	}
 
-	.apresentacao p {
-		font-size: 25px;
+	nav li:hover img {
+		width: 25px;
 	}
 
-	.caixa h1 {
-		font-size: 70px;
-	}
-
-	.caixa figcaption {
-		font-size: 35px;
+	.copy {
+		font-size: 12px;
+		padding: 10px 0;
 	}
 }

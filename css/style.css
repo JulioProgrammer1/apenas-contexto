@@ -171,7 +171,7 @@ header {
     color: #fff;
     font-weight: bold;
     padding: 10px;
-    boder: 1px solid none;
+    border: 1px solid none;
     border-radius: 5px;
     transition: all 0.5s;
 }
@@ -256,4 +256,109 @@ footer p {
     font-weight: bold;
     top: 50%;
     left: 42%;
+}
+
+@media screen and ( max-width: 940px ) {
+
+    header, main, footer {
+        width: 100%;
+    }
+    
+    .cabecalho hgroup h1 {
+        font-size: 2em;
+    }
+
+    .cabecalho hgroup h2 {
+        font-size: 14px;
+    }
+
+    .navegacao nav ul {
+        position: static;
+        margin: 15px 0;
+    }
+
+    .navegacao nav a {
+        text-decoration: underline;
+        font-size: 15px;
+        color: #ddd;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .conteudo1 {
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .corpo {
+        width: 90%;
+        padding: 25px 0;
+    }
+
+    .poema {
+        width: 85%;
+        margin-left: 4%;
+        box-shadow: 1px 1px 5px;;
+    }
+
+    .poema p {
+        padding: 10px;
+        margin: 0 5%;
+        font-weight: bold;
+        line-height: 20px;
+    }
+
+    .videos-conteudo1 {
+        position: static;
+    }
+
+    .section-comentarios {
+        width: 80%;
+        margin: 25px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 3px;
+        box-shadow: 1px 1px 5px;
+    }
+
+    .add-comentarios label {
+        margin: 0.5% 0;
+        display: block;
+    }
+
+    .add-comentarios #user {
+        width: 20%;
+    }
+    
+    .add-comentarios #addComentario {
+        width: 20%;
+    }
+
+    #botao-add {
+        display: block;
+        margin: 1% 0;
+    }
+
+    .add-comentarios input {
+        padding: 0.5%;
+    }
+
+    .comentario {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    footer #logo {
+        width: 10%;
+    }
+
+    footer #instagram {
+        margin-right: 5%;
+        width: 5%;
+    }
+
+    footer p {
+        position: absolute;
+        top: 40%;
+        left: 20%;
+    }
 }
