@@ -78,6 +78,7 @@ header {
 }
 
 .corpo {
+    display: inline-block;
     width: 940px;
     margin: 1% 0;
     padding: 50px 0;
@@ -135,6 +136,16 @@ header {
 .videos-conteudo1 iframe {
     display: inline-block;
     margin: 20px;
+}
+
+body {
+    position: relative;
+}
+
+#videos-motivacionais {
+    position: absolute;
+    top: 22%;
+    right: 0.5%;
 }
 
 .section-comentarios {
@@ -259,6 +270,23 @@ footer p {
     left: 44%;
 }
 
+/*Videos motivacionais*/
+
+#titulo-videos {
+    text-align: center;
+    font-size: 2em;
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 0 0 1% 0;
+    color: #fff;
+    background-color: #000;
+}
+
+.videos-motivacao {
+    display: block;
+    margin: 0 0 1% 0;
+}
+
 @media screen and ( max-width: 1024px ) {
 
     header, main, footer {
@@ -270,7 +298,7 @@ footer p {
     }
 
     .cabecalho hgroup h2 {
-        font-size: 1em;
+        font-size: 2.5em;
     }
 
     .navegacao nav ul {
@@ -327,6 +355,13 @@ footer p {
     .videos-conteudo1 #filipe, #poemaL {
         width: 450px;
         height: 355px;
+    }
+
+    #videos-motivacionais {
+        position: static;
+        width: 80%; 
+        height: 450px;
+        margin: 0 10% 2% 10%;
     }
 
     .section-comentarios {
