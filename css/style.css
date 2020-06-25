@@ -144,7 +144,7 @@ body {
 
 #videos-motivacionais {
     position: absolute;
-    top: 22%;
+    top: 20%;
     right: 0.5%;
 }
 
@@ -228,6 +228,36 @@ body {
 
 .comentario table tr td:first-child {
     font-weight: bold;
+}
+
+.lista-acoes {
+    width: 920px;
+    margin: 0 0 0 1%;
+}
+
+.lista-acoes ul {
+    width: 100%;
+    padding: 1%;
+    display: inline-block;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.lista-acoes ul li {
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 1%;
+    color: #fff;
+    transition: 0.5s all;
+}
+
+.lista-acoes ul li:hover {
+    opacity: 0.3;
+    border-bottom: 3px solid white;
+    cursor: pointer;
 }
 
 footer {
@@ -362,6 +392,27 @@ footer p {
         width: 80%; 
         height: 450px;
         margin: 0 10% 2% 10%;
+    }
+
+    .lista-acoes {
+        width: 820px;
+        margin: 0 auto;
+    }
+
+    .lista-acoes ul {
+        margin: 2% 0;
+        padding: 0;
+    }
+    
+    .lista-acoes ul li {
+        font-size: 2em;
+        text-decoration: underline;
+    }
+    
+    .lista-acoes ul li:hover {
+        opacity: 0.3;
+        border-bottom: 3px solid white;
+        cursor: pointer;
     }
 
     .section-comentarios {
