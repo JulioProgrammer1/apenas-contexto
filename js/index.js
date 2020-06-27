@@ -31,3 +31,67 @@ botao.addEventListener("click", function ( event ) {
     formComentario.nome.value = '';
     formComentario.comentario.value = '';
 });
+
+//Muda fotos do painel
+function mudaImagemNatureza () {
+    document.getElementById("lista-acoes-fotos").src = "img/natureza5.jpg";
+}
+
+function mudaImagemMente () {
+    document.getElementById("lista-acoes-fotos").src = "img/mente.jpeg";
+}
+
+function mudaImagemCorpo () {
+    document.getElementById("lista-acoes-fotos").src = "img/corpo.jpeg";
+}
+
+function mudaImagemEstudo () {
+    document.getElementById("lista-acoes-fotos").src = "img/estudos.jpeg";
+}
+
+function mudaImagemSocial () {
+    document.getElementById("lista-acoes-fotos").src = "img/social.jpeg";
+}
+
+function mudaImagemSaude () {
+    document.getElementById("lista-acoes-fotos").src = "img/saude.jpeg";
+}
+
+function mudaImagemMomento () {
+    document.getElementById("lista-acoes-fotos").src = "img/seumomento.jpeg";
+}
+
+//Natureza
+var natureza = document.querySelector("#natureza");
+natureza.addEventListener("click", mudaImagemNatureza);
+natureza.addEventListener("mousemove", mudaImagemNatureza);
+
+//Mente
+var mente = document.querySelector("#mente");
+mente.addEventListener("click", mudaImagemMente);
+mente.addEventListener("mousemove", mudaImagemMente);
+
+//Corpo
+var corpo = document.querySelector("#corpo");
+corpo.addEventListener("click", mudaImagemCorpo);
+corpo.addEventListener("mousemove", mudaImagemCorpo);
+
+//Estudos
+var estudos = document.querySelector("#estudos");
+estudos.addEventListener("click", mudaImagemEstudo);
+estudos.addEventListener("mousemove", mudaImagemEstudo);
+
+//Vida-social
+var social = document.querySelector("#vida-social");
+social.addEventListener("click", mudaImagemSocial);
+social.addEventListener("mousemove", mudaImagemSocial);
+
+//Saude
+var saude = document.querySelector("#saude");
+saude.addEventListener("click", mudaImagemSaude);
+saude.addEventListener("mousemove", mudaImagemSaude);
+
+//Momento
+var momento = document.querySelector("#momento");
+momento.addEventListener("click", mudaImagemMomento);
+momento.addEventListener("mousemove", mudaImagemMomento);
