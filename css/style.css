@@ -322,6 +322,46 @@ footer p {
     margin: 0 0 1% 0;
 }
 
+/*Contato*/
+
+#contato {
+    background-color: #0B243B;
+}
+
+.lista-contato ul img {
+    border: 1px solid #0B243B;
+    border-radius: 100px;
+}
+
+.lista-contato ul li {
+    margin: 3% 10%;
+}
+
+.lista-contato ul {
+    margin-bottom: 5%;
+}
+
+.lista-contato strong {
+    margin: 0 10px;
+}
+
+.lista-contato a, .projeto {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    color: #fff;
+}
+
+.projeto {
+    text-decoration: underline;
+    margin: 5% 10%;
+    font-size: 1.5em;
+}
+
+.footer-contato {
+    margin-top: 1%;
+}
+
 @media screen and ( max-width: 1024px ) {
 
     header, main, footer {
@@ -485,5 +525,21 @@ footer p {
         position: absolute;
         top: 40%;
         left: 35%;
+    }
+
+    .lista-contato ul {
+        margin-bottom: 100%;
+    }
+
+    .lista-contato ul li {
+        margin: 5% 10%;
+    }
+
+    .lista-contato a, .projeto {
+        font-size: 1.5em;
+    }
+    
+    .projeto {
+        font-size: 1em;
     }
 }
