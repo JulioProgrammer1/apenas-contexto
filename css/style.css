@@ -1,6 +1,5 @@
 body {
-    background-color: #F2F2F2;
-    opacity: 0.9; 
+    background-color: #0B243B; 
 }
 
 header {
@@ -68,6 +67,7 @@ header {
 
 .conteudo1 .titulo-conteudo {
     font-size: 30px;
+    color: #fff;
 }
 
 .conteudo1 #imgfixar {
@@ -135,7 +135,7 @@ header {
 
 .videos-conteudo1 iframe {
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
 }
 
 body {
@@ -324,10 +324,6 @@ footer p {
 
 /*Contato*/
 
-#contato {
-    background-color: #0B243B;
-}
-
 .lista-contato ul img {
     border: 1px solid #0B243B;
     border-radius: 100px;
@@ -367,6 +363,10 @@ footer p {
     header, main, footer {
         width: 100%;
     }
+
+    .cabecalho hgroup, .navegacao nav {
+        margin: 0 0 0 9%;
+    }
     
     .cabecalho hgroup h1 {
         font-size: 7em;
@@ -382,15 +382,33 @@ footer p {
     }
 
     .navegacao nav a {
-        text-decoration: underline;
-        font-size: 2em;
-        color: #ddd;
-        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4em;
+        background-color: darkcyan;
+        border-radius: 10px;
+    }
+
+    .navegacao nav li {
+        margin: 0 50px;
+    }
+
+    .navegacao nav li:hover {
+        opacity: 1;
+        border-bottom: 0px solid white;
+        margin: 0 25px;
+    }
+    
+    .navegacao nav li:active {
+        text-decoration: none;
     }
 
     .conteudo1 {
         width: 90%;
         margin: 5% 10%;
+    }
+
+    .conteudo1 .titulo-conteudo {
+        font-size: 35px;
+        font-weight: bold;
     }
 
     #imgfixar {
@@ -424,12 +442,16 @@ footer p {
 
     .videos-conteudo1 {
         position: static;
-        margin: 0 17% ;
+        margin: 4% 14% 0 14% ;
     }
 
     .videos-conteudo1 #filipe, #poemaL {
         width: 450px;
         height: 355px;
+        border-left: 50px solid rgba(0,0,0,0.9);
+        border-right: 50px solid rgba(0,0,0,0.9);
+        border-top: 10px solid rgba(0,0,0,1);
+        border-bottom: 10px solid rgba(0,0,0,1);
     }
 
     #videos-motivacionais {
