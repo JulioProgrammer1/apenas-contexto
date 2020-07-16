@@ -358,7 +358,7 @@ footer p {
     margin-top: 1%;
 }
 
-@media screen and ( max-width: 1024px ) {
+@media screen and ( max-width: 1420px ) {
 
     header, main, footer {
         width: 100%;
@@ -442,7 +442,7 @@ footer p {
 
     .videos-conteudo1 {
         position: static;
-        margin: 4% 14% 0 14% ;
+        margin: 4% 0 0 20px ;
     }
 
     .videos-conteudo1 #filipe, #poemaL {
