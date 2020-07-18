@@ -394,7 +394,7 @@ footer p {
     .navegacao nav li:hover {
         opacity: 1;
         border-bottom: 0px solid white;
-        margin: 0 25px;
+        margin: 0 45px;
     }
     
     .navegacao nav li:active {
