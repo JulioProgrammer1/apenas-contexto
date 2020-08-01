@@ -1,5 +1,5 @@
 body {
-    background-color: #0B243B; 
+    background-color: #0B243B;
 }
 
 header {
@@ -17,7 +17,8 @@ header {
     background-color: #000;
 }
 
-.cabecalho h1, h2 {
+.cabecalho h1,
+h2 {
     font-weight: bold;
     padding: 5px;
     color: #fff;
@@ -29,6 +30,15 @@ header {
 
 .cabecalho h2 {
     font-size: 1.8em;
+}
+
+.local {
+    width: 60px;
+    padding: 10px;
+    background-color: darkcyan;
+    border: 1px solid darkcyan;
+    border-radius: 100px;
+    margin: 1% 0 0 48%;
 }
 
 .navegacao nav a {
@@ -110,7 +120,8 @@ header {
     content: "- ";
 }
 
-.poema h1, p {
+.poema h1,
+p {
     font-style: italic;
 }
 
@@ -144,7 +155,8 @@ body {
 
 #videos-motivacionais {
     position: absolute;
-    top: 225px;
+    /*top: 325px;*/
+    top: 20%;
     right: 0.5%;
 }
 
@@ -305,6 +317,7 @@ footer p {
     left: 44%;
 }
 
+
 /*Videos motivacionais*/
 
 #titulo-videos {
@@ -321,6 +334,7 @@ footer p {
     display: block;
     margin: 0 0 1% 0;
 }
+
 
 /*Contato*/
 
@@ -341,7 +355,8 @@ footer p {
     margin: 0 10px;
 }
 
-.lista-contato a, .projeto {
+.lista-contato a,
+.projeto {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
@@ -358,133 +373,115 @@ footer p {
     margin-top: 1%;
 }
 
-@media screen and ( max-width: 1420px ) {
-
-    header, main, footer {
+@media screen and ( max-width: 1420px) {
+    header,
+    main,
+    footer {
         width: 100%;
     }
-
-    .cabecalho hgroup, .navegacao nav {
+    .cabecalho hgroup,
+    .navegacao nav {
         margin: 0 0 0 9%;
     }
-    
     .cabecalho hgroup h1 {
         font-size: 7em;
     }
-
     .cabecalho hgroup h2 {
         font-size: 2.5em;
     }
-
     .navegacao nav ul {
         position: static;
         margin: 2% 0;
     }
-
     .navegacao nav a {
         font-size: 1.4em;
         background-color: darkcyan;
         border-radius: 10px;
     }
-
     .navegacao nav li {
         margin: 0 50px;
     }
-
     .navegacao nav li:hover {
         opacity: 1;
         border-bottom: 0px solid white;
         margin: 0 45px;
     }
-    
     .navegacao nav li:active {
         text-decoration: none;
     }
-
+    .local {
+        margin: 1% 0 0 45%;
+    }
     .conteudo1 {
         width: 90%;
         margin: 5% 10%;
     }
-
     .conteudo1 .titulo-conteudo {
         font-size: 35px;
         font-weight: bold;
     }
-
     #imgfixar {
         margin-right: 7%;
     }
-
     .conteudo1 span {
         font-size: 0.7em;
     }
-
     .conteudo1 .autor-poema {
         font-size: 0.6em;
     }
-
     .corpo {
         width: 90%;
         padding: 25px 0;
     }
-
     .poema {
         width: 85%;
         margin-left: 4%;
-        box-shadow: 1px 1px 5px;;
+        box-shadow: 1px 1px 5px;
+        ;
     }
-
     .poema p {
         padding: 10px;
         margin: 0 5%;
         line-height: 20px;
     }
-
     .videos-conteudo1 {
         position: static;
-        margin: 4% 0 0 20px ;
+        margin: 4% 0 0 20px;
     }
-
-    .videos-conteudo1 #filipe, #poemaL {
+    .videos-conteudo1 #filipe,
+    #poemaL {
         width: 450px;
         height: 355px;
-        border-left: 50px solid rgba(0,0,0,0.9);
-        border-right: 50px solid rgba(0,0,0,0.9);
-        border-top: 10px solid rgba(0,0,0,1);
-        border-bottom: 10px solid rgba(0,0,0,1);
+        border-left: 50px solid rgba(0, 0, 0, 0.9);
+        border-right: 50px solid rgba(0, 0, 0, 0.9);
+        border-top: 10px solid rgba(0, 0, 0, 1);
+        border-bottom: 10px solid rgba(0, 0, 0, 1);
     }
-
     #videos-motivacionais {
         position: static;
-        width: 80%; 
+        width: 80%;
         height: 450px;
         margin: 0 10% 5% 10%;
     }
-
     .lista-acoes {
         width: 820px;
         margin: 5% auto 10% auto;
     }
-
     .lista-acoes ul {
         margin: 2% 0;
         padding: 0;
     }
-    
     .lista-acoes ul li {
         font-size: 2em;
         text-decoration: underline;
     }
-    
     .lista-acoes ul li:hover {
         opacity: 0.3;
         cursor: pointer;
     }
-
     #lista-acoes-fotos {
         width: 820px;
     }
-
     .section-comentarios {
         width: 80%;
         margin: 25px auto;
@@ -493,74 +490,60 @@ footer p {
         border-radius: 3px;
         box-shadow: 1px 1px 5px;
     }
-
     .add-comentarios label {
         font-size: 1.5em;
         margin: 0.5% 0;
         display: block;
     }
-
     .add-comentarios #user {
         width: 50%;
         font-size: 1.2em;
     }
-    
     .add-comentarios #addComentario {
         width: 50%;
         font-size: 1.2em;
     }
-
     #botao-add {
         display: block;
         margin: 2% 0;
         font-size: 1.5em;
     }
-
     #comentarios {
         font-size: 1.5em;
     }
-
     #lista-comentarios td {
         font-size: 1.5em;
     }
-
     .add-comentarios input {
         padding: 1.5%;
     }
-
     .comentario {
         width: 100%;
         margin: 20px auto;
     }
-
     footer #logo {
         width: 10%;
     }
-
     footer #instagram {
         margin-right: 5%;
         width: 5%;
     }
-
     footer p {
         font-size: 1.8em;
         position: absolute;
         top: 40%;
         left: 35%;
     }
-
     .lista-contato ul {
         margin-bottom: 100%;
     }
-
     .lista-contato ul li {
         margin: 5% 10%;
     }
-
-    .lista-contato a, .projeto {
+    .lista-contato a,
+    .projeto {
         font-size: 1.5em;
     }
-    
     .projeto {
         font-size: 1em;
     }
