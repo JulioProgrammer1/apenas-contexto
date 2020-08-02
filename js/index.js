@@ -4,7 +4,7 @@ titulocaption.textContent = "Comentários";
 
 var botao = document.querySelector("#botao-add");
 //Add um escutador de eventos, click
-botao.addEventListener("click", function ( event ) {
+botao.addEventListener("click", function(event) {
     event.preventDefault();
     //Trabalhando o <form> que adiciona comentário
     var formComentario = document.querySelector("#fromComentarios");
@@ -33,31 +33,31 @@ botao.addEventListener("click", function ( event ) {
 });
 
 //Muda fotos do painel
-function mudaImagemNatureza () {
+function mudaImagemNatureza() {
     document.getElementById("lista-acoes-fotos").src = "img/natureza5.jpg";
 }
 
-function mudaImagemMente () {
+function mudaImagemMente() {
     document.getElementById("lista-acoes-fotos").src = "img/mente.jpeg";
 }
 
-function mudaImagemCorpo () {
+function mudaImagemCorpo() {
     document.getElementById("lista-acoes-fotos").src = "img/corpo.jpeg";
 }
 
-function mudaImagemEstudo () {
+function mudaImagemEstudo() {
     document.getElementById("lista-acoes-fotos").src = "img/estudos.jpeg";
 }
 
-function mudaImagemSocial () {
+function mudaImagemSocial() {
     document.getElementById("lista-acoes-fotos").src = "img/social.jpeg";
 }
 
-function mudaImagemSaude () {
+function mudaImagemSaude() {
     document.getElementById("lista-acoes-fotos").src = "img/saude.jpeg";
 }
 
-function mudaImagemMomento () {
+function mudaImagemMomento() {
     document.getElementById("lista-acoes-fotos").src = "img/seumomento.jpeg";
 }
 
@@ -95,3 +95,24 @@ saude.addEventListener("mousemove", mudaImagemSaude);
 var momento = document.querySelector("#momento");
 momento.addEventListener("click", mudaImagemMomento);
 momento.addEventListener("mousemove", mudaImagemMomento);
+
+//Mudando a foto do local
+function mudaFotoLocalTel() {
+    document.getElementById("local-foto-casa").src = "img/contato.png";
+}
+
+function mudaFotoLocalCasa() {
+    document.getElementById("local-foto-casa").src = "img/home.png";
+}
+
+//index.html
+var contato = document.querySelector(".contato");
+contato.addEventListener("click", mudaFotoLocalTel);
+contato.addEventListener("mousemove", mudaFotoLocalTel);
+
+var home = document.querySelector(".home");
+home.addEventListener("mousemove", mudaFotoLocalCasa);
+
+var mainindex = document.querySelector("#main-index");
+mainindex.addEventListener("click", mudaFotoLocalCasa);
+mainindex.addEventListener("mousemove", mudaFotoLocalCasa);
