@@ -283,6 +283,11 @@ footer {
     padding: 5px;
 }
 
+footer .dev {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
 footer #logo {
     margin-top: 20px;
     display: inline-block;
@@ -523,6 +528,9 @@ footer p {
     }
     footer #logo {
         width: 10%;
+    }
+    footer .dev {
+        font-size: 0.5em;
     }
     footer #instagram {
         margin-right: 5%;

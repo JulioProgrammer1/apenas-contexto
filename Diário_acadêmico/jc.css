@@ -1,203 +1,196 @@
 .caixa {
-	font-family: 'Montserrat', sans-serif;
-	position: relative;
-	background: #000;
-	color: #FFF;
-	padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    background: #000;
+    color: #FFF;
+    padding-bottom: 10px;
 }
 
 p {
-	line-height: 1.5em;
+    line-height: 1.5em;
 }
 
 .caixa p {
-	font-size: 15px;
+    font-size: 15px;
 }
 
 a {
-	color: #0174DF;
-	text-decoration: none;
+    color: #0174DF;
+    text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 main a {
-	color: blue;
-	text-decoration: none;
+    color: blue;
+    text-decoration: none;
 }
 
 h1 {
-	font-size: 3em;
-	font-weight: bold;
-	color: #FFF;
+    font-size: 3em;
+    font-weight: bold;
+    color: #FFF;
 }
 
 .caixa img {
-	border: 1px solid none;
-	border-radius: 100px;
+    border: 1px solid none;
+    border-radius: 0 100px 0 100px;
 }
 
 .tag {
-	font-weight: bold;
-	font-size: 150px;
+    font-weight: bold;
+    font-size: 150px;
 }
 
 .jcimg {
-	margin-top: 10px;
-	text-align: center;
-	padding-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .jcimg figcaption {
-	font-size: 18px;
-	font-weight: bold;
-	color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
 }
 
 .apresentacao {
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	margin-left: 5px;
-	margin-right: 5px;
-	padding: 5px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
 }
 
 .frase {
-	text-align: center;
-	font-weight: bold; 
+    text-align: center;
+    font-weight: bold;
 }
 
 main {
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
-	margin-top: 20px;
-	background: #fafafa;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #fafafa;
 }
 
 h2 {
-	font-size: 2em;
-	font-weight: bold
+    font-size: 2em;
+    font-weight: bold
 }
 
 .h2s {
-	margin-left: 10px;
-	margin: 20px 0;
+    margin-left: 10px;
+    margin: 20px 0;
 }
 
 .topicos {
-	color: grey;
+    color: grey;
 }
 
 #maratona {
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .maratona p {
-	margin-top: 2em;
-	font-size: 15px;
-	font-family: sans-serif;
-	line-height: 1.5em;
-	font-weight: bold;
+    margin-top: 2em;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 1.5em;
+    font-weight: bold;
 }
 
 .timemaratona {
-	margin: 10px;
-	float: left;
-	box-shadow: -2px 2px 2px;
-	width: 400px;
+    margin: 10px;
+    float: left;
+    box-shadow: -2px 2px 2px;
+    width: 400px;
 }
 
 footer {
-	font-family: 'Montserrat', sans-serif;
-	clear: left;
-	position: relative;
-	background: black;
+    font-family: 'Montserrat', sans-serif;
+    clear: left;
+    position: relative;
+    background: black;
 }
 
 nav li {
-	display: inline-block;
+    display: inline-block;
 }
 
 nav {
-	position: absolute;
-	right: 0;
-	padding-right: 20px;
-	padding-top: 10px;
+    position: absolute;
+    right: 0;
+    padding-right: 20px;
+    padding-top: 10px;
 }
 
 nav li img {
-	transition: 0.5s all;
+    transition: 0.5s all;
 }
 
 nav li:hover img {
-	width: 35px;
+    width: 35px;
 }
 
 .copy {
-	color: #FFF;
-	text-align: center;
-	padding: 20px 0; 
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0;
 }
 
 #jc-rodape {
-	border: 2px solid #FFF;
-	border-radius: 100px;
-	color: #FFF;
-	margin-top: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
-	position: absolute;
-	font-size: 30px;
+    border: 2px solid #FFF;
+    border-radius: 100px;
+    color: #FFF;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    font-size: 30px;
 }
 
 #jc-rodape li {
-	transition: 0.5s all;
+    transition: 0.5s all;
 }
 
 #jc-rodape li:hover {
-	border-color: grey;
-	font-size: 35px;
-	color: grey;
+    border-color: grey;
+    font-size: 35px;
+    color: grey;
 }
 
-@media screen and (max-width: 940px) {
-	main {
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	.maratona p {
-		font-size: 15px;
-	}
-	
-	.timemaratona {
-		width: 100%;
-	}
-
-	#jc-rodape {
-		font-size: 20px;
-	}
-
-	#jc-rodape li:hover {
-		border-color: grey;
-		font-size: 25px;
-		color: grey;
-	}
-
-	nav img {
-		width: 20px;
-	}
-
-	nav li:hover img {
-		width: 25px;
-	}
-
-	.copy {
-		font-size: 12px;
-		padding: 10px 0;
-	}
+@media screen and (max-width: 1420px) {
+    main {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .maratona p {
+        font-size: 15px;
+    }
+    .timemaratona {
+        width: 100%;
+    }
+    #jc-rodape {
+        font-size: 20px;
+    }
+    #jc-rodape li:hover {
+        border-color: grey;
+        font-size: 25px;
+        color: grey;
+    }
+    nav img {
+        width: 20px;
+    }
+    nav li:hover img {
+        width: 25px;
+    }
+    .copy {
+        font-size: 12px;
+        padding: 10px 0;
+    }
 }
