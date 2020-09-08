@@ -155,9 +155,8 @@ body {
 
 #videos-motivacionais {
     position: absolute;
-    /*top: 325px;*/
-    top: 20%;
-    right: 0.5%;
+    top: 325px;
+    right: 1%;
 }
 
 .lista-acoes {
@@ -193,6 +192,15 @@ body {
     width: 940px;
     height: 400px;
     transition: 0.5s all;
+}
+
+.ifpi {
+    position: absolute;
+    top: 760px;
+    right: 1%;
+    display: inline-block;
+    width: 400px;
+    background: #fafafa;
 }
 
 .section-comentarios {
@@ -486,6 +494,15 @@ footer p {
     }
     #lista-acoes-fotos {
         width: 820px;
+    }
+    .ifpi {
+        position: static;
+        width: 80%;
+        height: 450px;
+        margin: 0 10% 5% 10%;
+    }
+    #ifpi {
+        width: 100%;
     }
     .section-comentarios {
         width: 80%;
