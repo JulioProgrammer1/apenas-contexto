@@ -1,42 +1,52 @@
 body {
-    background-color: #0B243B;
+    background-color: darkslategrey;
 }
 
 header {
-    background-color: #000;
-    padding: 1%;
+    padding: 5px;
     box-shadow: 0 0 5px;
+    background-color: darkcyan;
 }
 
 .cabecalho {
-    font-family: 'Piedra', cursive;
+    font-family: 'Amatic SC', cursive;
     /*position: fixed;*/
     position: relative;
     width: 100%;
     margin: 0;
-    background-color: #000;
+    background-color: darkcyan;
+    border-radius: 10px;
 }
 
 .cabecalho h1,
 h2 {
     font-weight: bold;
-    padding: 5px;
+    padding: 10px;
     color: #fff;
 }
 
 .cabecalho h1 {
-    font-size: 6em;
+    font-size: 5em;
 }
 
 .cabecalho h2 {
-    font-size: 1.8em;
+    font-size: 1.5em;
+}
+
+.data-hora #data {
+    display: inline-block;
+    background-color: #F2F2F2;
+    padding: 2px;
+    font-size: 0.8em;
+    font-family: monospace;
+    border-radius: 5px;
+    margin: 1% 0 0 98%;
 }
 
 .local {
+    background-color: lightseagreen;
     width: 60px;
     padding: 10px;
-    background-color: darkcyan;
-    border: 1px solid darkcyan;
     border-radius: 100px;
     margin: 1% 0 0 48%;
 }
@@ -155,7 +165,7 @@ body {
 
 #videos-motivacionais {
     position: absolute;
-    top: 325px;
+    top: 305px;
     right: 1%;
 }
 
@@ -196,7 +206,7 @@ body {
 
 .ifpi {
     position: absolute;
-    top: 760px;
+    top: 742px;
     right: 1%;
     display: inline-block;
     width: 400px;
@@ -397,10 +407,10 @@ footer p {
         margin: 0 0 0 9%;
     }
     .cabecalho hgroup h1 {
-        font-size: 7em;
+        font-size: 6em;
     }
     .cabecalho hgroup h2 {
-        font-size: 2.5em;
+        font-size: 2em;
     }
     .navegacao nav ul {
         position: static;
@@ -408,7 +418,7 @@ footer p {
     }
     .navegacao nav a {
         font-size: 1.4em;
-        background-color: darkcyan;
+        background-color: lightseagreen;
         border-radius: 10px;
     }
     .navegacao nav li {
@@ -459,7 +469,7 @@ footer p {
     }
     .videos-conteudo1 {
         position: static;
-        margin: 4% 0 0 20px;
+        margin: 4% 0 0 14%;
     }
     .videos-conteudo1 #filipe,
     #poemaL {
